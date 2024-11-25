@@ -1,0 +1,508 @@
+{
+  "categories": [
+    {
+      "id": "js_basics",
+      "name": "JavaScript Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the correct way to write a comment in JavaScript?",
+          "options": [
+            "A. <!-- This is a comment -->",
+            "B. // This is a comment",
+            "C. # This is a comment",
+            "D. /* This is a comment */"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which company developed JavaScript?",
+          "options": [
+            "A. Microsoft",
+            "B. Sun Microsystems",
+            "C. Netscape",
+            "D. Google"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Which of the following is a JavaScript data type?",
+          "options": [
+            "A. Float",
+            "B. Integer",
+            "C. Boolean",
+            "D. Byte"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "How do you declare a variable in JavaScript?",
+          "options": [
+            "A. variable name = value;",
+            "B. let name = value;",
+            "C. var name = value;",
+            "D. Both B and C"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "What does isNaN() function check?",
+          "options": [
+            "A. Whether a value is null",
+            "B. Whether a value is not a number",
+            "C. Whether a value is negative",
+            "D. Whether a value is an integer"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q6",
+          "question": "Which method can be used to convert a string to an integer?",
+          "options": [
+            "A. Number()",
+            "B. parseInt()",
+            "C. parseFloat()",
+            "D. toInteger()"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q7",
+          "question": "Which keyword is used to define a constant in JavaScript?",
+          "options": [
+            "A. const",
+            "B. constant",
+            "C. let",
+            "D. var"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q8",
+          "question": "What is the output of typeof null in JavaScript?",
+          "options": [
+            "A. null",
+            "B. undefined",
+            "C. object",
+            "D. boolean"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q9",
+          "question": "Which of the following methods adds an element to the end of an array?",
+          "options": [
+            "A. push()",
+            "B. pop()",
+            "C. shift()",
+            "D. unshift()"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q10",
+          "question": "How can you check if two values are equal in both type and value?",
+          "options": [
+            "A. ==",
+            "B. =",
+            "C. ===",
+            "D. !="
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "angular_basics",
+      "name": "Angular Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is Angular primarily used for?",
+          "options": [
+            "A. Building server-side applications",
+            "B. Styling web pages",
+            "C. Building client-side web applications",
+            "D. Managing databases"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which architecture pattern does Angular use?",
+          "options": [
+            "A. MVC (Model-View-Controller)",
+            "B. MVVM (Model-View-ViewModel)",
+            "C. MVP (Model-View-Presenter)",
+            "D. MVW (Model-View-Whatever)"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "What is a decorator in Angular?",
+          "options": [
+            "A. A function that modifies classes or properties",
+            "B. A CSS file for styling components",
+            "C. A service for HTTP requests",
+            "D. A debugging tool"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "Which command is used to create a new Angular project?",
+          "options": [
+            "A. ng start",
+            "B. ng init",
+            "C. ng new",
+            "D. ng create"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "What is the purpose of Angular CLI?",
+          "options": [
+            "A. Manage Angular updates",
+            "B. Generate code scaffolding and manage builds",
+            "C. Provide runtime debugging tools",
+            "D. Optimize server-side rendering"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q6",
+          "question": "What is a component in Angular?",
+          "options": [
+            "A. A JavaScript function",
+            "B. A TypeScript class that controls a portion of the UI",
+            "C. A collection of CSS styles",
+            "D. A service for state management"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q7",
+          "question": "Which directive is used for two-way data binding in Angular?",
+          "options": [
+            "A. [(ngModel)]",
+            "B. [ngBind]",
+            "C. (ngInput)",
+            "D. {ngUpdate}"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q8",
+          "question": "What is the default port for an Angular development server?",
+          "options": [
+            "A. 8080",
+            "B. 4200",
+            "C. 3000",
+            "D. 5000"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q9",
+          "question": "What is a module in Angular?",
+          "options": [
+            "A. A part of the browser’s DOM",
+            "B. A container for a cohesive block of functionality",
+            "C. A service for routing",
+            "D. A CSS framework"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q10",
+          "question": "Which lifecycle hook is called after a component's view is initialized?",
+          "options": [
+            "A. ngOnInit",
+            "B. ngAfterViewInit",
+            "C. ngOnChanges",
+            "D. ngDoCheck"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "react_advanced",
+      "name": "React Advanced",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the purpose of React’s useMemo hook?",
+          "options": [
+            "A. To optimize functional components by memoizing the output of a function",
+            "B. To perform side effects in functional components",
+            "C. To store mutable state values",
+            "D. To trigger re-renders"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which method is used to update the state in a functional component?",
+          "options": [
+            "A. setState()",
+            "B. useEffect()",
+            "C. setStateValue()",
+            "D. The function returned by useState()"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "How can you prevent unnecessary re-renders in React components?",
+          "options": [
+            "A. By using React.memo",
+            "B. By using useEffect",
+            "C. By passing props directly",
+            "D. By avoiding state updates"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "What does the useReducer hook do in React?",
+          "options": [
+            "A. Reduces the bundle size of the application",
+            "B. Handles complex state logic using a reducer function",
+            "C. Minimizes the re-renders of a component",
+            "D. Fetches data from APIs"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "What is the purpose of React.forwardRef?",
+          "options": [
+            "A. To avoid re-renders when passing props",
+            "B. To forward refs to child components",
+            "C. To manage state more effectively",
+            "D. To handle event bubbling"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q6",
+          "question": "Which React feature helps in server-side rendering (SSR)?",
+          "options": [
+            "A. ReactDOM.hydrate()",
+            "B. React.createPortal()",
+            "C. React.Fragment",
+            "D. React.lazy()"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q7",
+          "question": "What is the purpose of the useLayoutEffect hook?",
+          "options": [
+            "A. To perform updates after the DOM has been painted",
+            "B. To perform side effects synchronously before the browser paints",
+            "C. To schedule updates to the DOM",
+            "D. To handle asynchronous operations"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q8",
+          "question": "How can you dynamically import a component in React?",
+          "options": [
+            "A. import()",
+            "B. React.lazy()",
+            "C. useDynamicImport()",
+            "D. require()"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q9",
+          "question": "What is the role of the context in React?",
+          "options": [
+            "A. To optimize rendering of components",
+            "B. To manage side effects",
+            "C. To pass data deeply without prop drilling",
+            "D. To handle API calls"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q10",
+          "question": "How can you handle errors in React components?",
+          "options": [
+            "A. Using componentDidCatch in class components or ErrorBoundary",
+            "B. Using try-catch in the JSX code",
+            "C. Using useErrorHandler hook",
+            "D. By logging errors manually in the console"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is Flutter primarily used for?",
+          "options": [
+            "A. Backend development",
+            "B. Frontend web applications",
+            "C. Cross-platform mobile app development",
+            "D. Game development"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which programming language is used to build Flutter applications?",
+          "options": [
+            "A. Java",
+            "B. Dart",
+            "C. Kotlin",
+            "D. Python"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "What is the purpose of the pubspec.yaml file in a Flutter project?",
+          "options": [
+            "A. To define app styles and themes",
+            "B. To manage dependencies and metadata for the project",
+            "C. To configure routing for the app",
+            "D. To handle database operations"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "What is a StatelessWidget in Flutter?",
+          "options": [
+            "A. A widget that has a mutable state",
+            "B. A widget that has an immutable state",
+            "C. A widget for handling API calls",
+            "D. A widget used only for animations"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "Which widget is used for user input in Flutter?",
+          "options": [
+            "A. TextField",
+            "B. Container",
+            "C. GestureDetector",
+            "D. ListView"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q6",
+          "question": "How do you display a list of scrollable items in Flutter?",
+          "options": [
+            "A. ListView",
+            "B. Column",
+            "C. Row",
+            "D. GridView"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q7",
+          "question": "What is the function of the build() method in Flutter?",
+          "options": [
+            "A. To define the widget's layout and structure",
+            "B. To handle lifecycle events",
+            "C. To connect the app to a database",
+            "D. To initialize variables"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q8",
+          "question": "What is the Navigator widget used for in Flutter?",
+          "options": [
+            "A. To manage screen transitions and routing",
+            "B. To define the structure of the app",
+            "C. To fetch data from APIs",
+            "D. To optimize widget rendering"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q9",
+          "question": "Which of the following widgets is used to align child widgets in a row or column?",
+          "options": [
+            "A. Stack",
+            "B. Scaffold",
+            "C. Flex",
+            "D. Padding"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q10",
+          "question": "How can you add padding around a widget in Flutter?",
+          "options": [
+            "A. Using Padding widget",
+            "B. Using Container with a margin property",
+            "C. Using Align widget",
+            "D. Using Expanded widget"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        }
+      ]
+    }
+  ]
+}
