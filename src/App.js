@@ -39,16 +39,12 @@ function App() {
             />
           )}
 
-          {/* {result && (
+          {result && (
             <Route
               path="/result"
               element={<Result result={result} userInfo={userName} />}
             />
-          )} */}
-          <Route
-            path="/result"
-            element={<Result result={result} userInfo={userName} />}
-          />
+          )}
         </Routes>
       </BrowserRouter>
     </>

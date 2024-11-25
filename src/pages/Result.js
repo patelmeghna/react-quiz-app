@@ -8,7 +8,7 @@ const Result = (props) => {
   const { result, userInfo } = props;
   return (
     <>
-      <Header userInfo={"Meghna Patel"} userState={"complete"} />
+      <Header userInfo={userInfo} userState={"complete"} />
 
       <div className="page-container container">
         <div className="result-wrapper">
@@ -47,7 +47,7 @@ const Result = (props) => {
 
               <div className="score-content">
                 <p className="score-text">Your Score</p>
-                <h3 className="score">83%</h3>
+                <h3 className="score">{result?.score}%</h3>
                 <p className="greetings">Great job!</p>
               </div>
             </>
